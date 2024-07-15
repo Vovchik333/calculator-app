@@ -1,0 +1,16 @@
+@use '../../../../../../assets//css/variables.scss' as vars;
+
+.calc-buttons {
+    display: flex;
+    height: 330px;
+    width: 100%;
+}
+
+.calc-buttons__clear-and-digits {
+    width: 80%
+}
+
+.calc-buttons__clear {
+    background-color: vars.$accent-color;
+    height: 20%;
+}

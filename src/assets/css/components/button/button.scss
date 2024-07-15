@@ -1,0 +1,17 @@
+@use '../../variables' as vars;
+
+.button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: 1px solid vars.$border-color;
+}
+
+.button:hover {
+    opacity: 80%;
+}

@@ -1,0 +1,9 @@
+@use '../../../../assets/css/variables.scss' as vars;
+
+.calculator {
+    min-height: 400px;
+    width: 100%;
+    max-width: 350px;
+    background-color: vars.$secondary-color;
+    border: 1px solid vars.$border-color;
+}

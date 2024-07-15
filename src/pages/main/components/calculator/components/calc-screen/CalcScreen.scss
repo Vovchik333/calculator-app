@@ -1,0 +1,28 @@
+@use '../../../../../../assets/css/variables' as vars;
+
+.calc-screen {
+    min-height: 70px;
+    width: 100%;
+    border: 1px solid vars.$border-color;
+    padding: 5px;
+}
+
+.calc-screen__formula,
+.calc-screen__output {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    word-wrap: break-word;
+}
+
+.calc-screen__formula {
+    font-size: 1rem;
+    color: vars.$secondary-text-color;
+    min-height: 30px;
+}
+
+.calc-screen__output {
+    font-size: 1.2rem;
+    color: vars.$primary-text-color;
+    min-height: 40px;
+}

@@ -1,0 +1,15 @@
+@use '../../../../../../../../assets/css/variables' as vars;
+
+.calc-buttons__digits {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 80%;
+}
+
+.calc-buttons__digit {
+    background-color: vars.$digit-button-color;
+}
+
+.calc-buttons__zero-button {
+    grid-column: 1 / 3;
+}

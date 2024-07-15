@@ -1,0 +1,10 @@
+@use '../../../../../../../../assets/css/variables' as vars;
+
+.calc-buttons__operators {
+    width: 20%;
+}
+
+.calc-buttons__operator {
+    height: 20%;
+    background-color: vars.$operator-button-color;
+}
